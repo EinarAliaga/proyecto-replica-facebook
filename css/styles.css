@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: sans-serif;
+
 }
 
 nav {
@@ -16,12 +17,14 @@ nav {
     position: fixed;
     top: 0;
     z-index: 1000;
+
 }
 
 nav .left .logo img {
     width: 55px;
     margin: 5px 0;
     cursor: pointer;
+
 }
 
 nav .left {
@@ -29,6 +32,7 @@ nav .left {
     align-items: center;
     justify-content: center;
     margin-left: 10px;
+
 }
 
 nav .left .search-bar {
@@ -40,6 +44,7 @@ nav .left .search-bar {
     margin-left: 0.1px;
     position: relative;
     left: 15px;
+
 }
 
 nav .left .search-bar i {
@@ -47,6 +52,7 @@ nav .left .search-bar i {
     font-size: 19px;
     color: #919191;
     margin-right: 5px;
+
 }
 
 nav .left .search-bar input {
@@ -55,27 +61,32 @@ nav .left .search-bar input {
     border: 0;
     font-size: 16px;
     width: 200px;
+
 }
 
 nav .center {
     position: relative;
     right: 45px;
+
 }
 
 nav .center i {
     margin: 0 45px 0 45px;
     font-size: 22px;
+
 }
 
 nav .center i:hover{
     color: #45abff;
     cursor: pointer;
+
 }
 
 nav .right {
     display: flex;
     align-items: center;
     margin-right: 10px ;
+
 }
 
 nav .right i {
@@ -88,6 +99,7 @@ nav .right i {
     font-size: 18px;
     margin-left: 8px;
     cursor: pointer;
+    
 }
 
 nav .right img {
@@ -99,6 +111,7 @@ nav .right img {
     margin-left: 8px;
     line-height: 45px;
     cursor: pointer;
+
 }
 
 /*class main*/
@@ -107,6 +120,7 @@ nav .right img {
     display: flex;
     margin-top: 60px;
     background: #f5f5f5;
+
 }
 
 .main .left {
@@ -117,19 +131,23 @@ nav .right img {
     background: #f5f5f5;
     padding: 20px 6px 5px 10px;
     position: fixed;
+
 }
 
 .main .left::-webkit-scrollbar {
     width: 7px;
+
 }
 
 .main .left::-webkit-scrollbar-thumb {
     border-radius: 20px;
     background: #f5f5f5;
+
 }
 
 .main .left:hover::-webkit-scrollbar-thumb {
     background: #cccccc;
+
 }
 
 .main .left .img {
@@ -143,6 +161,7 @@ nav .right img {
 
 .main .left .img:hover {
     background: #e3e3e3;
+
 }
 
 .main .left .img img {
@@ -161,12 +180,14 @@ nav .right img {
     border: 0;
     background: #cccccc;
     margin: 10px 0;
+
 }
 
 .main .left h2 {
     font-size: 18px;
     color: #919191;
     margin: 5px 0;
+
 }
 
 .main .left .edit {
@@ -177,10 +198,12 @@ nav .right img {
     bottom: 23px;
     cursor: pointer;
     opacity: 0;
+
 }
 
 .main .left:hover .edit {
     opacity: 1;
+
 }
 
 .main .left .shortcuts {
@@ -188,6 +211,7 @@ nav .right img {
     align-items: center;
     transition: 0.2s;
     border-radius: 9px;
+
 }
 
 .main .left .shortcuts:hover {
@@ -203,6 +227,7 @@ nav .right img {
     object-position: center;
     border-radius: 10px;
     margin: 8px 15px 8px 0;
+
 }
 
 .main .center {
@@ -211,10 +236,12 @@ nav .right img {
     padding: 20px 20px 0 20px;
     background: #f5f5f5;
     margin-left: 25%;
+
 }
 
 .main .center::-webkit-scrollbar {
     width: 0;
+
 }
 
 .main .center .top-box {
@@ -222,6 +249,7 @@ nav .right img {
     height: 260px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+
 }
 
 .main .center .top-box .story-card-1 {
@@ -232,6 +260,7 @@ nav .right img {
     box-shadow: 0 1px 8px rgba(0, 0, 0, 2);
     border-radius: 10px;
     cursor: pointer;
+
 }
 
 .main .center .top-box .story-card-1 img {
@@ -239,6 +268,7 @@ nav .right img {
     height: 100%;
     object-fit: cover;
     object-position: center;
+    
 }
 
 .main .center .top-box .story-card-1 .story-upload {
@@ -248,6 +278,7 @@ nav .right img {
     position: relative;
     bottom: 50px;
     cursor: pointer;
+
 }
 
 .main .center .top-box .story-card-1 .story-upload img {
@@ -258,6 +289,7 @@ nav .right img {
     position: relative;
     bottom: 15px;
     border-radius: 50%;
+
 }
 
 .main .center .top-box .story-card-1 .story-upload .story-tag {
@@ -268,6 +300,7 @@ nav .right img {
     bottom: 10px;
     font-weight: bold;
     font-size: 14px;
+
 }
 
 .main .center .top-box .story-card-2 {
@@ -278,6 +311,7 @@ nav .right img {
     box-shadow: 0 1px 8px rgba(0, 0, 0, 2);
     border-radius: 10px;
     cursor: pointer;
+
 }
 
 .main .center .top-box .story-card-2 img {
@@ -285,12 +319,14 @@ nav .right img {
     height: 100%;
     object-fit: cover;
     object-position: center;
+
 }
 
 .main .center .top-box .story-card-2 .story-profile {
     position: relative;
     bottom: 240px;
     margin-left: 10px;
+
 }
 
 .main .center .top-box .story-card-2 .story-profile img {
@@ -298,6 +334,7 @@ nav .right img {
     height: 40px;
     border-radius: 50%;
     border: 4px solid #45abff;
+
 }
 
 .main .center .top-box .story-card-2 .story-profile .circle {
@@ -309,12 +346,14 @@ nav .right img {
     position: relative;
     bottom: 15px;
     left: 25px;
+
 }
 
 .main .center .top-box .story-card-2 .story-name {
     position: relative;
     bottom: 100px;
     padding: 0 10px;
+
 }
 
 .main .center .top-box .story-card-2 .story-name .name {
@@ -325,13 +364,14 @@ nav .right img {
 }
 
 .main .center .my-post {
-    width: 100%;
+    width: 95%;
     height: auto;
     background: #fff;
     padding: 10px 15px;
     border-radius: 7px;
     box-shadow: 0 1px 8px rgba(0, 0, 0, 2);
-    margin: 10px 0;
+    margin: 10px 0 10px 25px;
+
 }
 
 .main .center .my-post img {
@@ -340,6 +380,7 @@ nav .right img {
     border-radius: 50%;
     object-fit: cover;
     object-position: center;
+
 }
 
 .main .center .my-post .post-top {
@@ -357,11 +398,13 @@ nav .right img {
     background: #efefef;
     border-radius: 30px;
     font-size: 17px;
+
 }
 
 .main .center .my-post .post-top input:hover {
     background: #e3e3e3;
     cursor: pointer;
+
 }
 
 .main .center .my-post hr {
@@ -378,6 +421,7 @@ nav .right img {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     margin: 5px auto;
+
 }
 
 .main .center .my-post .post-bottom .post-icon {
@@ -386,6 +430,7 @@ nav .right img {
     margin: 0 auto;
     padding: 5px 40px;
     cursor: pointer;
+
 }
 
 .main .center .my-post .post-bottom .post-icon:hover {
@@ -398,16 +443,71 @@ nav .right img {
     font-size: 23px;
     color: red;
     margin-right: 8px;
+
 }
 
 .main .center .my-post .post-bottom .post-icon i.green {
     font-size: 23px;
     color: #27cc37;
     margin-right: 8px;
+
 }
 
 .main .center .my-post .post-bottom .post-icon i.pink {
     font-size: 23px;
     color: #c83c51;
     margin-right: 8px;
+
+}
+
+.main .center .room {
+    width: 95%;
+    height: auto;
+    background: #fff;
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 2);
+    padding: 10px 15px;
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    margin: 0 0 0 25px;
+
+}
+
+.main .center .room .room-image {
+    display: flex;
+    align-items: center;
+    border: 1px solid #45abff;
+    padding: 10px;
+    border-radius: 30px;
+    width: 150px;
+    margin-right: 5px;
+
+}
+
+.main .center .room .room-image:hover{
+    background: #efefef;
+    cursor: pointer;
+
+}
+
+.main .center .room .room-image img {
+    width: 25px;
+    margin-right: 8px;
+
+}
+
+.main .center .room .room-image .room-tag {
+    color: #45abff;
+
+}
+
+.main .center .room .room-profile img {
+    width: 45px;
+    height: 45px;
+    object-fit: cover;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+    margin: 0 8px;
+    border: 3px solid #45abff;
 }
